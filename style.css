@@ -75,3 +75,8 @@ table {
     border: "1";
     width: "100%";
 }
+
+.code, code {
+    font-family: monospace;
+    background-color: rgb(178, 193, 209);
+}
