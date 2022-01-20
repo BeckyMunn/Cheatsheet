@@ -4,6 +4,7 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
+* [Screenshots](#screenshots)
 * [Project Status](#project-status)
 * [To Do](#to-do)
 
@@ -18,6 +19,17 @@
 - HTML
 - CSS
 
+## Screenshots
+**INDEX Page**
+![Image of the INDEX Page](/screenshots/index.png)
+**HTML Page**
+![Image of the HTML Page](/screenshots/html1.png)
+![Image of the HTML Page](/screenshots/html2.png)
+**CSS Page**
+![Image of the CSS Page](/screenshots/css.png)
+**README Page**
+![Image of the README Page](/screenshots/readme1.png)
+![Image of the README Page](/screenshots/readme1.png)
 
 ## Project Status
 This project can be expanded at will
