@@ -1,0 +1,77 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(221, 226, 231);
+}
+.nav_bar_ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.nav_bar_li {
+    float: left;
+}
+
+.nav_bar_a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+
+.nav_bar_a:hover {
+    background-color: #111;
+  }
+
+#Cheetsheet, #html, #css, #readme {
+    color: white;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none; 
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h2 {
+    font-weight: bold;
+    text-align: center;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+}
+
+th {
+    background-color: #333;
+    color: white;
+    padding: 8px;
+    width: "100%";
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(194, 203, 212);
+} 
+
+tr:hover {
+    background-color: #ddd;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table {
+    border: "1";
+    width: "100%";
+}

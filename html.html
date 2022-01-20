@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <ul class='nav_bar_ul'>
+        <li class='nav_bar_li'><a href="index.html" class= 'nav_bar_a'>Home</a></li>
+        <li class='nav_bar_li'><a href="html.html" class= 'nav_bar_a'>HTML</a></li>
+        <li class='nav_bar_li'><a href="css.html" class= 'nav_bar_a'>CSS</a></li>
+        <li class='nav_bar_li'><a href="readme.html" class= 'nav_bar_a'>README</a></li>
+        <li id='html'>HTML</li>
+    </ul>
+
+    <h2>Quick Nav</h2>
+    <ul>
+        <li><a href='#html_boilerplate'>HTML Boilerplate</a></li>
+        <li><a href='#basic_tags'>Basic Tags</a></li>
+        <li><a href='#text_tags'>Text Tags</a></li>
+        <li><a href='#link_tags'>Link Tags</a></li>
+        <li><a href='#formating_tags'>Formating Tags</a></li>
+        <li><a href='#List Tags'>List Tags</a></li>
+        <li><a href='#graphical_element_tags'>Graphical Element Tags</a></li>
+        <li><a href='#form_tags'>Form Tags</a></li>
+        <li><a href='#input_tags'>Input Tags</a></li>
+        <li><a href='#table_boilerplate'>Table Boilerplate</a></li>
+        <li><a href='#table_tags'>Table Tags</a></li>
+        <li><a href='#table_attribute_tags'>Table Attribute Tags</a></li>
+    </ul>
+
+
+      <h2 id='html_boilerplate'>HTML Boilerplate</h2>
+      <code>
+          <pre class="code">
+            &lt!DOCTYPE html&gt
+            &lthtml lang="en"&gt
+                &lthead&gt
+                    &ltmeta charset="UTF-8"&gt
+                    &ltmeta name="viewport" content="width=device-width, initial-scale=1.0"&gt
+                    &ltmeta http-equiv="X-UA-Compatible" content="ie=edge"&gt
+                    &lttitle>HTML 5 Boilerplate&lt/title&gt
+                    &ltlink rel="stylesheet" href="style.css"&gt
+                &lt/head&gt
+                &ltbody&gt
+                    &ltscript src="index.js"&gt&lt/script&gt
+                &lt/body&gt
+            &lt/html&gt</pre>
+        </code>
+
+        <table id='basic_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Basic Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lthtml&gt</td>
+                    <td>Creates a HTML document</td>
+                </tr>
+                <tr>
+                    <td>&lthead&gt</td>
+                    <td>Sets off the title & other info that isn't displayed</td>
+                </tr>
+                <tr>
+                    <td>&ltbody&gt</td>
+                    <td>Sets off the visible portion of the document</td>
+                </tr>
+                <tr>
+                    <td>&lttitle&gt</td>
+                    <td>Puts name of the document in the title bar</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='text_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Text Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&ltpre&gt</td>
+                    <td>Creates preformatted text</td>
+                </tr>
+                <tr>
+                    <td>&lth1&gt</td>
+                    <td>Creates headlines -- H1=largest, H6=smallest</td>
+                </tr>
+                <tr>
+                    <td>&ltcode&gt</td>
+                    <td>Used to define source code, usually monospace</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='link_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Link Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lta href="URL"&gt</td>
+                    <td>Creates a hyperlink to a Uniform Resource Locator</td>
+                </tr>
+                <tr>
+                    <td>&lta href="mailto:ADDRESS&gt</td>
+                    <td>Creates a hyperlink to an email address</td>
+                </tr>
+                <tr>
+                    <td>&lta name="NAME"&gt</td>
+                    <td>Creates a target location within a document</td>
+                </tr>
+                <tr>
+                    <td>&lta href="#NAME"&gt</td>
+                    <td>Creates a link to that target location</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='formating_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Formating Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&ltp&gt</td>
+                    <td>Creates a new paragraph</td>
+                </tr>
+                <tr>
+                    <td>&ltbr&gt</td>
+                    <td>Inserts a line break (carriage return)</td>
+                </tr>
+                <tr>
+                    <td>&ltblockquote&gt</td>
+                    <td>Puts content in a quote - indents text from both sides</td>
+                </tr>
+                <tr>
+                    <td>&ltdiv&gt</td>
+                    <td>Used to format block content with CSS</td>
+                </tr>
+                <tr>
+                    <td>&ltspan&gt</td>
+                    <td>Used to format inline content with CSS</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='list_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        List Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&ltul&gt</td>
+                    <td>Creates an unordered list</td>
+                </tr>
+                <tr>
+                    <td>&ltol start=xx&gt</td>
+                    <td>Creates an ordered list (start=xx,
+                        where xx is a counting number)</td>
+                </tr>
+                <tr>
+                    <td>&ltli&gt</td>
+                    <td>Encompasses each list item</td>
+                </tr>
+                <tr>
+                    <td>&ltdl&gt</td>
+                    <td>Creates a definition list</td>
+                </tr>
+                <tr>
+                    <td>&ltdt&gt</td>
+                    <td>Precedes each defintion term</td>
+                </tr>
+                <tr>
+                    <td>&ltdd&gt</td>
+                    <td>Precedes each defintion</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='graphical_element_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Graphical Element Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lthr&gt</td>
+                    <td>Inserts a horizontal rule</td>
+                </tr>
+                <tr>
+                    <td>&lthr size=?&gt</td>
+                    <td>Sets size (height) of horizontal rule</td>
+                </tr>
+                <tr>
+                    <td>&lthr width=?&gt</td>
+                    <td>Sets width of rule (as a % or absolute pixel length)</td>
+                </tr>
+                <tr>
+                    <td>&lthr noshade&gt</td>
+                    <td>Creates a horizontal rule without a shadow</td>
+                </tr>
+                <tr>
+                    <td>&ltimg src="URL"/&gt</td>
+                    <td>Adds image; it is a separate file located at the URL</td>
+                </tr>
+                <tr>
+                    <td>&ltimg src="URL" height=?/&gt</td>
+                    <td>Sets height of image, in pixels</td>
+                </tr>
+                <tr>
+                    <td>&ltimg src="URL" width=?/&gt</td>
+                    <td>Sets width of image, in pixels</td>
+                </tr>
+                <tr>
+                    <td>&ltimg src="URL" alt=?/&gt</td>
+                    <td>Sets the alternate text for browsers that can't
+                        process images</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='form_tags'>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        Form Tags
+                    </th>
+                </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&ltform&gt</td>
+                    <td>Defines a form</td>
+                </tr>
+                <tr>
+                    <td>&ltselect multiple name=? size=?&gt</td>
+                    <td>Creates a scrolling menu. Size sets the number of
+                        menu items visible before user needs to scroll.</td>
+                </tr>
+                <tr>
+                    <td>&ltselect name=?&gt</td>
+                    <td>Creates a pulldown menu</td>
+                </tr>
+                <tr>
+                    <td>&ltoption&gt</td>
+                    <td>Sets off each menu item</td>
+                </tr>
+                <tr>
+                    <td>&lttextarea name=? cols="x" rows="y"&gt</td>
+                    <td>Creates a text box area. Columns set the width;
+                        rows set the height.</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="checkbox" name=? value=?&gt</td>
+                    <td>Creates a checkbox.</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="checkbox" name=? value=? checked&gt</td>
+                    <td>Creates a checkbox which is pre-checked.
+                    </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="radio" name=? value=?&gt</td>
+                    <td>Creates a radio button.</td>
+                </tr>
+                <tr>
+                    <td>&linput type="radio" name=? value=? checked&gt</td>
+                    <td>Creates a radio button which is pre-checked.</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="text" name=? size=?&gt</td>
+                    <td>Creates a one-line text area. Size sets length, incharacters.</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="submit" value=?&gt</td>
+                    <td>Creates a submit button. Value sets the text in the
+                        submit button.</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="image" name=? src=? border=? alt=?&gt</td>
+                    <td>Creates a submit button using an image. </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="reset"&gt</td>
+                    <td>Creates a reset button</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <table id='input_tags'>
+            <thead>
+            <tr>
+                <th colspan="3">
+                    Input Tags
+                </th>
+            </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&ltinput type="email" name=?&gt</td>
+                    <td>Sets a single-line textbox for email addresses </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="url" name=?&gt</td>
+                    <td>Sets a single-line textbox for URLs</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="number" name=?&gt</td>
+                    <td>Sets a single-line textbox for a number </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="range" name=?&gt</td>
+                    <td> Sets a single-line text box for a range of numbers </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="date/month/week/time" name=?&gt</td>
+                    <td>Sets a single-line text box with a calendar showing the date/month/week/time </td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="search" name=?&gt</td>
+                    <td>Sets a single-line text box for searching</td>
+                </tr>
+                <tr>
+                    <td>&ltinput type="color" name=?&gt</td>
+                    <td>Sets a single-line text box for picking a color</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br><br>
+
+        <h2 id='table_boilerplate'>Table Boilerplate</h2>
+        <code>
+            <pre class='code'>
+                &lttable>
+                    &ltthead>
+                        &lttr>
+                            &ltth>Column Headers&lt/th>
+                            &ltth>Column Headers&lt/th>
+                            &ltth>Column Headers&lt/th>
+                        &lt/tr>
+                    &lt/thead>
+                    &lttbody>
+                        &lttr>
+                            &lttd>Row Content&lt/td>
+                            &lttd>Row Content&lt/td>
+                            &lttd>Row Content&lt/td>
+                        &lt/tr>
+                        &lttr>
+                            &lttd>Row Content&lt/td>
+                            &lttd>Row Content&lt/td>
+                            &lttd>Row Content&lt/td>
+                        &lt/tr>
+                    &lt/tbody>
+                &lt/table>
+            </pre>
+        </code>
+
+        <br><br>
+        <table id='table_tags'>
+            <thead>
+            <tr>
+                <th colspan="3">Table Tags</th>
+            </tr>
+            <tr>
+            <th>Tags</th>
+            <th>Name</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>&lttable&gt</td>
+                    <td>Table</td>
+                    <td>The wrapper element for all HTML tables.</td>
+                </tr>
+                <tr>
+                    <td>&ltthead&gt</td>
+                    <td>Table Head</td>
+                    <td>The set of rows defining the column headers in a table.</td>
+                </tr>
+                <tr>
+                    <td>&lttbody&gt</td>
+                    <td>Table Body</td>
+                    <td>The set of rows containing actual table data.</td>
+                </tr>
+                <tr>
+                    <td>&lttr&gt</td>
+                    <td>Table Row</td>
+                    <td>The table row container.</td>
+                </tr>
+                <tr>
+                    <td>&lttd&gt</td>
+                    <td>Table Data</td>
+                    <td>The table cell container.</td>
+                </tr>
+                <tr>
+                    <td>&lttfoot&gt</td>
+                    <td>Table Foot</td>
+                    <td>The set of rows defining the footer in a table.</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <br><br>
+
+        <table id='table_attribute_tags'>
+            <thead>
+            <tr>
+                <th colspan="3">Table Attribute Tags</th>
+            </tr>
+            <tr>
+            <th>Attribute</th>
+            <th>Name</th>
+            <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>colspan</td>
+                    <td>Column Span</td>
+                    <td>Defines how many columns a td element should span.</td>
+                </tr>
+                <tr>
+                    <td>rowspan</td>
+                    <td>Row Span</td>
+                    <td>Defines how many rows a td element should span.</td>
+                </tr>
+            </tbody>
+        </table>
+
+  </body>
+</html>
+
+

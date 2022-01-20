@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>README</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <ul class='nav_bar_ul'>
+        <li class='nav_bar_li'><a href="index.html" class= 'nav_bar_a'>Home</a></li>
+        <li class='nav_bar_li'><a href="html.html" class= 'nav_bar_a'>HTML</a></li>
+        <li class='nav_bar_li'><a href="css.html" class= 'nav_bar_a'>CSS</a></li>
+        <li class='nav_bar_li'><a href="readme.html" class= 'nav_bar_a'>README</a></li>
+        <li id='readme'>README</li>
+    </ul>
+
+    <h2>Quick Nav</h2>
+    <ul>
+        <li><a href='#headings'>Headings</a></li>
+        <li><a href='#readme_styling'>README Styling</a></li>
+        <li><a href='#image_links'>Image Links</a></li>
+        <li><a href='#lists'>Lists</a></li>
+        <li><a href='#readme_boilerplate'>README Boilerplate</a></li>
+    </ul>
+
+    <h2 id='headings'>Headings</h2>
+    <code>
+        <pre class="code">
+# The largest heading
+## The second largest heading
+###### The smallest heading
+        </pre>
+    </code>
+
+    <table id='readme_styling'>
+        <thead>
+        <tr>
+            <th colspan="3">README Styling</th>
+        </tr>
+        <tr>
+        <th>Style</th>
+        <th>Syntax</th>
+        <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Bold</td>
+                <td>** ** or __ __</td>
+                <td>**This is bold text**</td>
+            </tr>
+            <tr>
+                <td>Italic</td>
+                <td>* * or _ _</td>
+                <td>*This text is italicized*</td>
+            </tr>
+            <tr>
+                <td>Strikethrough</td>
+                <td>~~ ~~</td>
+                <td>~~This was mistaken text~~</td>
+            </tr>
+            <tr>
+                <td>Bold and nested italic</td>
+                <td>** ** and __ __</td>
+                <td>**This text is _extremely_important**</td>
+            </tr>
+            <tr>
+                <td>All bold and italic</td>
+                <td>*** ***</td>
+                <td>***All this text is important***</td>
+            </tr>
+            <tr>
+                <td>Quoting text</td>
+                <td>&gt</td>
+                <td>&gtThis is a quote</td>
+            </tr>
+            <tr>
+                <td>Quoting code</td>
+                <td>``` ```</td>
+                <td>```This is code```</td>
+            </tr>
+            <tr>
+                <td>Links</td>
+                <td>[text](URL)</td>
+                <td>This site was built using [GitHub Pages](https://pages.github.com/).</td>
+            </tr>
+            <tr>
+                <td>Section Links</td>
+                <td>[text](#heading-text)</td>
+                <td>[General Info](#general-information)</td>
+            </tr>
+            <tr>
+                <td>images</td>
+                <td>![alt text](image-url)</td>
+                <td>![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='image_links'>
+        <thead>
+        <tr>
+            <th colspan="2">Image Links</th>
+        </tr>
+        <tr>
+        <th>Context</th>
+        <th>Relative Link</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>In a .md file on the same branch</td>
+                <td>/assets/images/electrocat.png</td>
+            </tr>
+            <tr>
+                <td>In a .md file on another branch</td>
+                <td>/../main/assets/images/electrocat.png</td>
+            </tr>
+            <tr>
+                <td>In issues, pull requests and comments of the repository</td>
+                <td>../blob/main/assets/images/electrocat.png</td>
+            </tr>
+            <tr>
+                <td>In a .md file in another repository</td>
+                <td>/../../../../github/docs/blob/main/assets/images/electrocat.png</td>
+            </tr>
+            <tr>
+                <td>In issues, pull requests and comments of another repository</td>
+                <td>../../../github/docs/blob/main/assets/images/electrocat.png?raw=true</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='lists'>
+        <thead>
+        <tr>
+            <th colspan="3">Lists</th>
+        </tr>
+        <tr>
+            <th>Style</th>
+            <th>Syntax</th>
+            <th>Example</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Unordered List Dash</td>
+                <td>-</td>
+                <td>- George Washington</td>
+            </tr>
+            <tr>
+                <td>Unordered List Dot</td>
+                <td>*</td>
+                <td>* George Washington</td>
+            </tr>
+            <tr>
+                <td>Ordered List</td>
+                <td>1.</td>
+                <td>1. George Washington</td>
+            </tr>
+            <tr>
+                <td>Nested List</td>
+                <td>Until the list marker character lies directly below the first character of the text in the item above it.</td>
+                <td>
+                    <pre class="code">
+1. First list item
+   - First nested list item
+     - Second nested list item    
+                    </pre></td>
+            </tr>
+            <tr>
+                <td>Task List</td>
+                <td>- [ ]</td>
+                <td>- [ ] Do a task</td>
+            </tr>
+            <tr>
+                <td>Task List Done</td>
+                <td>- [x]</td>
+                <td>- [x] Task Done</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2 id='readme_boilerplate'>README Boilerplate</h2>
+    <code>
+        <pre class="code">
+# Project Name
+> Outline a brief description of your project.
+> Live demo [_here_](https://www.example.com). &lt!-- If you have the project hosted somewhere, include the link here. -->
+
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Features](#features)
+* [Screenshots](#screenshots)
+* [Setup](#setup)
+* [Usage](#usage)
+* [Project Status](#project-status)
+* [Room for Improvement](#room-for-improvement)
+* [Acknowledgements](#acknowledgements)
+* [Contact](#contact)
+&lt!-- * [License](#license) -->
+
+
+## General Information
+- Provide general information about your project here.
+- What problem does it (intend to) solve?
+- What is the purpose of your project?
+- Why did you undertake it?
+&lt!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+
+
+## Technologies Used
+- Tech 1 - version 1.0
+- Tech 2 - version 2.0
+- Tech 3 - version 3.0
+
+
+## Features
+List the ready features here:
+- Awesome feature 1
+- Awesome feature 2
+- Awesome feature 3
+
+
+## Screenshots
+![Example screenshot](./img/screenshot.png)
+&lt!-- If you have screenshots you'd like to share, include them here. -->
+
+
+## Setup
+What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+
+Proceed to describe how to install / setup one's local environment / get started with the project.
+
+
+## Usage
+How does one go about using it?
+Provide various use cases and code examples here.
+
+`write-your-code-here`
+
+
+## Project Status
+Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are no longer working on it, provide reasons why.
+
+
+## Room for Improvement
+Include areas you believe need improvement / could be improved. Also add TODOs for future development.
+
+Room for improvement:
+- Improvement to be done 1
+- Improvement to be done 2
+
+To do:
+- Feature to be added 1
+- Feature to be added 2
+
+
+## Acknowledgements
+Give credit here.
+- This project was inspired by...
+- This project was based on [this tutorial](https://www.example.com).
+- Many thanks to...
+
+
+## Contact
+Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+
+
+&lt!-- Optional -->
+&lt!-- ## License -->
+&lt!-- This project is open source and available under the [... License](). -->
+
+&lt!-- You don't have to include all sections - just the one's relevant to your project -->
+        </pr>
+    </code>
+  </body>
+</html>

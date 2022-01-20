@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+
+    <ul class='nav_bar_ul'>
+        <li class='nav_bar_li'><a href="index.html" class= 'nav_bar_a'>Home</a></li>
+        <li class='nav_bar_li'><a href="html.html" class= 'nav_bar_a'>HTML</a></li>
+        <li class='nav_bar_li'><a href="css.html" class= 'nav_bar_a'>CSS</a></li>
+        <li class='nav_bar_li'><a href="readme.html" class= 'nav_bar_a'>README</a></li>
+        <li id='css'>CSS</li>
+    </ul>
+
+    <h2>Quick Nav</h2>
+    <ul>
+        <li><a href='#selectors'>Selectors</a></li>
+        <li><a href='#pseudo_selectors_elements'>Pseudo Selectors & Elements</a></li>
+        <li><a href='#text_styling'>Text Styling</a></li>
+        <li><a href='#background'>Background</a></li>
+        <li><a href='#box_properties'>Box Properties</a></li>
+        <li><a href='#list_styling'>List Styling</a></li>
+    </ul>
+
+    <br><br>
+
+    <table id='selectors'>
+        <thead>
+        <tr>
+            <th colspan="2">Selectors</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Universal Selector</td>
+                <td>* {}</td>
+            </tr>
+            <tr>
+                <td>ID Selector</td>
+                <td>#id {}</td>
+            </tr>
+            <tr>
+                <td>Class Selector</td>
+                <td>.class {}</td>
+            </tr>
+            <tr>
+                <td>Type Selector</td>
+                <td>h1, h2, h3 {}</td>
+            </tr>
+            <tr>
+                <td>Type Selector</td>
+                <td>h1, h2, h3 {}</td>
+            </tr>
+            <tr>
+                <td>Adjacent Sibling Selector</td>
+                <td>h1 + p {}</td>
+            </tr>
+            <tr>
+                <td>Child Selector</td>
+                <td>ul > li {}</td>
+            </tr>
+            <tr>
+                <td>General Sibling Selector</td>
+                <td>h1 ~ p {}</td>
+            </tr>
+            <tr>
+                <td>Decendant Selector</td>
+                <td>p a {}</td>
+            </tr>
+            <tr>
+                <td>Attribute Selector</td>
+                <td>div[attribute="someValue"] {}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='pseudo_selectors_elements'>
+        <thead>
+        <tr>
+            <th colspan="2">Pseudo Selectors & Elements</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mouse Over Selector</td>
+                <td>a:hover {}</td>
+            </tr>
+            <tr>
+                <td>Active Link Selector</td>
+                <td>a:active {}</td>
+            </tr>
+            <tr>
+                <td>Focus Selector</td>
+                <td>input:focus {}</td>
+            </tr>
+            <tr>
+                <td>Visited Links Selector</td>
+                <td>a:visited {}</td>
+            </tr>
+            <tr>
+                <td>Link Selector</td>
+                <td>.class:link {}</td>
+            </tr>
+            <tr>
+                <td>Checked elements Selector</td>
+                <td>input:checked {}</td>
+            </tr>
+            <tr>
+                <td>Disabled elements Selector</td>
+                <td>input:disabled {}</td>
+            </tr>
+            <tr>
+                <td>First Letter Selector</td>
+                <td>p::first-letter {}</td>
+            </tr>
+            <tr>
+                <td>First Child Selector</td>
+                <td>p:first-child {}</td>
+            </tr>
+            <tr>
+                <td>Last Child Selector</td>
+                <td>p:last-child {}</td>
+            </tr>
+            <tr>
+                <td>Only Child Selector</td>
+                <td>p:only-child {}</td>
+            </tr>
+            <tr>
+                <td>nth-Child Selector</td>
+                <td>p:nth-child {}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='text_styling'>
+        <thead>
+        <tr>
+            <th colspan="2">Text Styling</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Font Style</td>
+                <td>font-style: normal | italic | oblique</td>
+            </tr>
+            <tr>
+                <td>Font Variant</td>
+                <td>font-variant: normal | small-caps</td>
+            </tr>
+            <tr>
+                <td>Font Weight</td>
+                <td>font-weight: normal | bold | bolder | lighter | 100-900</td>
+            </tr>
+            <tr>
+                <td>Vertical Alignment</td>
+                <td>vertical-align: baseline | 10px | sub | super | top | text-top | middle | bottom | text-bottom | initial</td>
+            </tr>
+            <tr>
+                <td>Text Transform</td>
+                <td>text-transform: capitalise | lowecase | uppercase</td>
+            </tr>
+            <tr>
+                <td>Font Size</td>
+                <td>font-size: 12px | 0.8em | 80%</td>
+            </tr>
+            <tr>
+                <td>Space Between Characters</td>
+                <td>letter-spacing: normal | 4px</td>
+            </tr>
+            <tr>
+                <td>Line Height</td>
+                <td>line-height: normal | 3em | 34%</td>
+            </tr>
+            <tr>
+                <td>Horizontal Alignment</td>
+                <td>text-align: left | right | center | justify</td>
+            </tr>
+            <tr>
+                <td>Text Decoration</td>
+                <td>text-decoration: none | underline | overline | line-through</td>
+            </tr>
+            <tr>
+                <td>Indent First Line</td>
+                <td>text-indent: 25px</td>
+            </tr>
+            <tr>
+                <td>Font Family</td>
+                <td>font-family: 'Open Sans', sans-serif</td>
+            </tr>
+            <tr>
+                <td>Text Justify</td>
+                <td>text-justify: auto | inter-word | inter-character | none | initial | inherit</td>
+            </tr>
+            <tr>
+                <td>Text Overflow</td>
+                <td>text-overflow: clip | ellipsis | string | initial | inherit</td>
+            </tr>
+            <tr>
+                <td>Text Shadow</td>
+                <td>text-shadow: h-shadow v-shadow blue-radius color | none | initial | inherit</td>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='background'>
+        <thead>
+        <tr>
+            <th colspan="2">Background</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Background Image</td>
+                <td>background-image: url()</td>
+            </tr>
+            <tr>
+                <td>Background Repeat</td>
+                <td>background-repeat: repeat-x | repear-y | repeat | space | round | no-repeat</td>
+            </tr>
+            <tr>
+                <td>Background Attachment</td>
+                <td>background-attachment: scroll | fixed | local | initial | inherit</td>
+            </tr>
+            <tr>
+                <td>Background Color</td>
+                <td>background-color: #2AA9E0 | white</td>
+            </tr>
+            <tr>
+                <td>Background Position</td>
+                <td>background-position: top | right | bottom | left | center</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <table id='box_properties'>
+        <thead>
+        <tr>
+        <th colspan="2">Box Properties</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Box Sizing</td>
+                <td>box-sizing: border-box | content-box</td>
+            </tr>
+            <tr>
+                <td>Margin</td>
+                <td>margin: 2px 4px 6px 8px | 0 auto</td>
+            </tr>
+            <tr>
+                <td>Padding</td>
+                <td>padding: 2px 4px 6px 8px</td>
+            </tr>
+            <tr>
+                <td>Border Color</td>
+                <td>border-color: #2AA9E0 | white</td>
+            </tr>
+            <tr>
+                <td>Border Style</td>
+                <td>border-style: none | hidden | dotted | dashed | solid | double | groove | ridge | inset | outset</td>
+            </tr>
+            <tr>
+                <td>Border Width</td>
+                <td>border-width: 10px</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+    
+    <table id='list_styling'>
+        <thead>
+        <tr>
+            <th colspan="2">List Styling</th>
+        </tr>
+        <tr>
+        <th>Description</th>
+        <th>Syntax</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>List Type</td>
+                <td>list-style-type: disc | circle | square | none</td>
+            </tr>
+            <tr>
+                <td>List Position</td>
+                <td>list-style-position: inside | outside</td>
+            </tr>
+            <tr>
+                <td>List Image</td>
+                <td>list-style-image: url()</td>
+            </tr>
+        </tbody>
+    </table>
+
+  </body>
+</html>
